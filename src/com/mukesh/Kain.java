@@ -7,12 +7,11 @@ public class Kain {
 
     public static void main (String[] args){
 //name
-        String name;
-        Scanner inputf=new Scanner(System.in);
-        System.out.println("Entername");
-        name=inputf.next();
-//age
-        int ageOfPerson;
+        Scanner inputf=new Scanner(System.in);String name ;
+        System.out.println("Entername" );
+         name = inputf.nextLine(); System.out.println("Username is :" +name +name.toUpperCase());
+      //System.out.println("name Length :" +name.length() + " " +name.toUpperCase());
+        int ageOfPerson;//age
         System.out.println("age :" );
         Scanner input= new Scanner(System.in);
         ageOfPerson = input.nextInt();
@@ -25,6 +24,9 @@ public class Kain {
 
         if(ageOfPerson == 18 && IndianCitizen == true) System.out.println("eligible");
         else  System.out.println("not eligible");
-        }
-    }
 
+Qain obj=new Qain();
+obj.use();
+
+    }
+}
