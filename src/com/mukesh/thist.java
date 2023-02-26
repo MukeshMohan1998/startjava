@@ -2,19 +2,19 @@ package com.mukesh;
 
 import java.util.Scanner;
 
-class studentt{
+class student{
     int rollno;
     int classe;
     String principal="mukesh";
 
-      void display(){
+ public    void display(){
         System.out.println("hi");
     }
 
 
 }
 
-public class staticc {
+public class thist {
     public static void main(String[] args){
         student karthik =new student();
         karthik.rollno=12001;
@@ -27,11 +27,11 @@ public class staticc {
         vimal.principal="mukesh";
 
         Scanner sc = new Scanner(System.in);
-        String student = sc.next();
+        String student = sc.nextLine();
         System.out.println("Enter student name");
 
 
     }
 
-    }
+}
 
